@@ -2,6 +2,8 @@
 
 CSIS 3755 Encryption Project
 
+Team: Ryan Lalchand & Kelly Lam
+
 ## Part 1: Symmetric key encryption using python
 
 -Research the python library cryptography and rsa.
