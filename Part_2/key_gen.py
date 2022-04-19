@@ -26,5 +26,8 @@ cipherFile.write(crypto)
 cipherFile.close()
 
 # Test it and make sure that you can decrypt it back to plain text.
-message = rsa.decrypt(crypto, privKey)
+file = open("./Part_2/rsa_sym_key_cipher.txt", "rb")
+decrypt_message = file.read()
+
+message = rsa.decrypt(decrypt_message, privKey)
 print(message)
